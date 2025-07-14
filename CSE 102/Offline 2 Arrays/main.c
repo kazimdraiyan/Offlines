@@ -66,7 +66,7 @@ int main()
     while (1)
     {
         printf("\nEnter command: ");
-        scanf("%7s", &command);
+        scanf("%7s", command);
         clear_input_buffer();
 
         if (!strcmp(command, "set"))
